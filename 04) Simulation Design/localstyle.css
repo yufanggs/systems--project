@@ -1,0 +1,151 @@
+/* Use Case Sequence CSS */
+
+/*headers
+*****************/
+h2{
+  padding:auto;
+  margin-top:10px;
+  margin-left: 1rem;
+  font-size:40px;
+}
+
+h3{
+  background-color: #fbed6a;
+  padding: 5px 5px;
+}
+
+p{
+  margin:0px;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* containers
+****************/
+.divcenter{
+  text-align: center;
+}
+
+.wrapper{
+  display: flex;
+  max-height: 78vh;
+}
+
+.container{
+
+}
+
+#tableofcontent{
+  max-width: 200px; 
+  margin-left: 10px;
+  background-color: #fdf6b4;
+  padding-top:5px;
+}
+
+#contentwrapper{
+  margin-left: 20px;
+  padding:10px 30px;
+  max-width: 80vw;
+  width: 70vw;
+  overflow-y:auto;
+  background-color: #fefce6;
+  border:solid 1px;
+  max-height: 100vh;
+  overflow-y:auto;
+}
+
+#actualcontent{
+  max-width: 650px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/* lists
+**************/
+li{
+  padding-bottom: 10px;
+}
+
+
+/* tables 
+**************/
+table {
+  border-collapse: collapse;
+  buffer-top:10px;
+}
+
+
+th {
+  border: 1px solid black;
+  padding:5px;
+  text-align:center;
+  background-color: #fefad6;
+  color: #000;
+}
+
+td {
+  border: 1px solid black;
+  padding:5px;
+  text-align:left;
+  min-height: 70px;
+}
+
+.size4 td {
+  width: 150px;
+}
+
+.size3 td{
+  width: 200px;
+}
+
+.table-hover tbody tr:hover td{
+  background-color: #fced69;
+
+}
+
+/* buttons 
+**************/
+.nextbtn_right{
+  position: absolute;
+  width:100px;
+  top:80%;
+  right:5rem;
+  background-color: transparent;
+  color: #000;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 30px;
+}
+
+.nextbtn_left{
+  width:100px;
+  left:1rem;
+  margin-bottom: 1px;
+  background-color: transparent;
+  color: #000;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+}
+
+a.colorless:link
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.colorless:visited
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.colorless:hover
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.colorless:active
+{
+   color: #fb3f00;
+   text-decoration: none;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+	<head>
+		<!-- Add a suitable title for this page -->
+		<title>Performance Measurement</title>
+
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <link rel="icon" href="../static/logos/basket.png">
+
+		<!-- Stylesheet CSS -->
+		<link rel="stylesheet" type="text/css" href="localstyle.css">
+		<link rel="stylesheet" type="text/css" href="../static/style.css">
+		<link rel="stylesheet" type="text/css" href="../static/jquery-easyui/themes/default/easyui.css">
+
+		<!-- Javascript Js -->
+		<script src="../static/jquery-easyui/jquery.min.js"></script>
+		<script src="../static/jquery-easyui/jquery.easyui.min.js"></script>
+	</head>
+
+
+	<body>
+		<button	type="button" class="btn-left nextbtn_left" onClick="location.href='../index.html'"><span>Back</span></button>
+
+		<div class="divcenter">
+				<h2>Performance Measurement</h2>
+				<b><br>Using the values obtained from the data collected and the Monte Carlo simulation, we calculated the mean values as shown below:</br></b>
+
+					<div class="row">
+						<div class="column">
+							<br>
+							<h4><u>For Cashier</u></h4>
+							<img src="Cashier.png" style="width:500px">
+							<br>Table 1: Cashier System Performance</br>
+							<br>
+							<h4><u>For Self Checkout</u></h4>
+							<img src="SelfCheckout.png" style="width:500px">
+							<br>Table 2: Self Checkout System Performance</br>
+							<br>
+							<h4><u>Conclusion</u></h4>
+							It is seen that the performance of the Self-checkout is generally better than that of the Cashier.</br>
+							<br>
+							1) The mean service time for the Sashier is LONGER than that of the Self checkout.* </br>
+							2) The mean waiting time for the Cashier is LONGER than that of the Self checkout. </br>
+							3) The overall time spent in system is significantly LONGER for the Cashier as compared to the Self checkout. </br>
+							<br>
+							This means that more customers should be directed to the Self checkout servers in the future. </br>
+							<br>
+							Given that these statistics are based off only 50 entries, we are looking to use our simulation
+							<br>
+							to verify that the Self Checkout queue indeed results in a lower average queuing
+							<br>
+							and service time than the Cashier queue in the long run.
+							<br>
+							<br>
+							<i>* As a result of this, we set the values of the ProbDepartureCashier and ProbDepartureSelfCheckout
+								slider bars as such in our Java simulation
+								<br>-- where the ProbDepartureCashier can only take values
+								lower than ProbDepartureSelfCheckout.</i>
+
+		</br>
+
+						</div>
+
+			</div>
+		</div>
+
+	</body>
+</html>
+<br>
+<br>
+<br>

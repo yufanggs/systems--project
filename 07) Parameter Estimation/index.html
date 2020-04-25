@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+	<head>
+		<!-- Add a suitable title for this page -->
+		<title>Parameter Estimation</title>
+		<link rel="icon" href="../static/logos/basket.png">
+
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Stylesheet CSS -->
+		<link rel="stylesheet" type="text/css" href="localstyle.css">
+		<link rel="stylesheet" type="text/css" href="../static/style.css">
+		<link rel="stylesheet" type="text/css" href="../static/jquery-easyui/themes/default/easyui.css">
+
+		<!-- Javascript Js -->
+		<script src="../static/jquery-easyui/jquery.min.js"></script>
+		<script src="../static/jquery-easyui/jquery.easyui.min.js"></script>
+	</head>
+
+
+	<body>
+		<button	type="button" class = "btn-left nextbtn_left" onClick="location.href='../index.html'"><span>Back</span></button>
+
+		<div class="divcenter">
+				<h2>Parameter Estimation</h2>
+				Following the 20 data entries that were collected for each individual type of server, Monte Carlo simulation was carried out to obtain more entries before analysis was carried out.
+				<br>
+				<br>
+				<b><br>The process of this Monte Carlo simulation is written below:</br></b>
+				<br>
+				<b>1) Filter and summarise the statistics obtained from the collected data into the following tables (as shown below).</b>
+
+					<div class="row">
+						<div class="column">
+							<br>
+							<h4><u>For Cashier</u></h4>
+							<img src="cashier interarrival.png" style="width:500px">
+							<br>Table 1: Cashier Interarrival</br>
+							<br>
+							<img src="cashier service.png" style="width:500px">
+							<br>Table 2: Cashier Service</br>
+							<br>
+							<img src="cashier waiting.png" style="width:500px">
+							<br>Table 3: Cashier Waiting</br>
+							<br>
+							<h4><u>For Self Checkout</u></h4>
+							<img src="self checkout interarrival.png" style="width:500px">
+							<br>Table 4: Self Checkout Interarrival</br>
+							<br>
+							<img src="self checkout service.png" style="width:500px">
+							<br>Table 5: Self Checkout Service</br>
+							<br>
+							<img src="self checkout waiting.png"style="width:500px">
+							<br>Table 6: Self Checkout Waiting</br>
+		</br>
+
+						</div>
+
+						<div class="column">
+							<br>
+							<br>
+							<b>2) Generate 30 random numbers for each queueing parameter using MS Excel’s “randbetween” function to get random numbers between 0 and 99. (highlighted in green in the tables below)</b></br>
+							<br>
+							<b>3) Allocate values to the respective queueing parameters by looking at the random number intervals and the values associated to them</b></br>
+							<br>
+							<b>4) Fill in the arrival time accordingly with respect to interarrival times.</b>
+							<br>
+							<h4><u>For Cashier</u></h4>
+							<img src="cashier.png" style="width:800px">
+							<br>Table 7: Cashier Parameter Estimations</br>
+							<br>
+							<h4><u>For Self Checkout</u></h4>
+							<img src="selfcheckout.png" style="width:800px">
+							<br>Table 8: Self Checkout Parameter Estimations</br>
+							<br>
+
+				</div>
+			</div>
+
+			</body>
+		</html>

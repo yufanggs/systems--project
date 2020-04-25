@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+	<head>
+		<!-- Add a suitable title for this page -->
+		<title>Data Visualization and Analysis</title>
+
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			<link rel="icon" href="../static/logos/basket.png">
+
+		<!-- Stylesheet CSS -->
+		<link rel="stylesheet" type="text/css" href="localstyle.css">
+		<link rel="stylesheet" type="text/css" href="../static/style.css">
+		<link rel="stylesheet" type="text/css" href="../static/jquery-easyui/themes/default/easyui.css">
+
+		<!-- Javascript Js -->
+		<script src="../static/jquery-easyui/jquery.min.js"></script>
+		<script src="../static/jquery-easyui/jquery.easyui.min.js"></script>
+		<script src="localscript.js"></script>
+	</head>
+
+
+	<body>
+		<button	type="button" class="btn-left nextbtn_left" onClick="location.href='../index.html'"><span>Back</span></button>
+
+		<div class="divcenter">
+			<h2>Data Visualization and Analysis</h2>
+			<p>Click image to zoom</p>
+			<br>
+			We plotted the frequency of the interarrival times, service time and waiting times for the Cashier and Self Checkout Servers from our data collected.
+
+			<div class="imgContainer">
+				<div class="container">
+					<h3>Interarrival Times for Cashier</h3>
+					<img class="myImg" src="cashier interarrival from data collection.png"width="300" height="200">
+				</div>
+
+				<div class = "container">
+					<h3>Service Times for Cashier</h3>
+					<img class="myImg" src="cashier service from data collection.png" width="300" height="200">
+				</div>
+
+				<div class = "container">
+					<h3>Waiting Times for Cashier</h3>
+					<img class="myImg" src="cashier waiting from data collection.png"width="300" height="200">
+				</div>
+				<div class = "container">
+					<h3>Interarrival Times for Self Checkout</h3>
+					<img class="myImg" src="self checkout interarrival from data collection.png"width="300" height="200">
+				</div>
+
+				<div class = "container">
+					<h3>Service Times for Self Checkout</h3>
+					<img class="myImg" src="self checkout service from data collection.png"width="300" height="200">
+				</div>
+
+				<div class = "container">
+					<h3>Waiting Times for Self Checkout</h3>
+					<img class="myImg" src="self checkout waiting from data collection.png"width="300" height="200">
+				</div>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+
+
+
+
+
+<br>By looking at the plots, the service and waiting times for the self checkout are lower compared to cashier queues. Following this, we carried out Monte Carlo simulation to verify that this conclusion is true.</br>
+
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+
+			  <!-- The Close Button -->
+			  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+			  <!-- Modal Content (The Image) -->
+			  <img class="modal-content" id="img01">
+
+			  <!-- Modal Caption (Image Text) -->
+			  <div id="caption"></div>
+			</div>
+
+		</div>
+	</body>
+</html>
