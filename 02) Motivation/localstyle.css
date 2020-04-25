@@ -1,0 +1,156 @@
+/*mission statement css*/
+
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("ss");
+
+    /* Full height */
+    height: 20%; 
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 0.85;
+}
+
+.center {
+    display: block;
+    position: absolute;
+    top: -999px;            /* use sufficiently large number */
+    bottom: -999px;
+    left: -999px;
+    right: -999px;
+    margin: auto;
+    width: 80%;
+}
+
+/* Buttons
+--------------------------------------------------*/
+
+.picbtn{
+  background-color: transparent;
+  border:none;
+}
+
+.picbtn_left{
+  position: absolute;
+  top:80%;
+}
+
+.nextbtn_right{
+  position: absolute;
+  width:100px;
+  top:80%;
+  right:5rem;
+  background-color: transparent;
+  color: #000;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 30px;
+}
+
+.nextbtn_left{
+  position: absolute;
+  width:100px;
+  top:80%;
+  left:5rem;
+  background-color: transparent;
+  color: #000;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 30px;
+}
+
+.btn-outline {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+  border: 2px solid;
+  padding: 4px;
+}
+
+.btn-outline:hover {
+  color:#fff;
+  background-color: #5B5B5B;
+  border-color: #000;
+}
+
+.btn-right {
+  display: inline-block;
+  /*color: #fff;
+  background-color: #fff;*/
+  border-color: #000;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+  margin-right: 0;
+}
+
+.btn-right span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-right span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-right:hover span {
+  padding-right: 30px;
+}
+
+.btn-right:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn-left {
+  display: inline-block;
+  /*color: #000;
+  background-color: #fff;*/
+  border-color: #000;
+  border: none;
+  color: black;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+  margin-left: 0;
+}
+
+.btn-left span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-left span:after {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -2px;
+  transition: 0.5s;
+}
+
+.btn-left:hover span {
+  padding-left: 25px;
+}
+
+.btn-left:hover span:after {
+  opacity: 1;
+  left: 0;
+}
