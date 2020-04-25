@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <meta name="description" content="DSSDemo">
+	    <meta name="author" content="Justinian">
+	    <link rel="icon" href="https://img00.deviantart.net/c026/i/2016/331/5/7/overwatch_logo_1_by_contreras19-da4orvh.png">
+
+		<title>DSS Demo</title>
+		
+		<link rel="stylesheet" type="text/css" href="../jquery-easyui/themes/default/easyui.css">
+		<link rel="stylesheet" type="text/css" href="../jquery-easyui/themes/icon.css">
+		<script type="text/javascript" src="../jquery-easyui/jquery.min.js"></script>
+		<script type="text/javascript" src="../jquery-easyui/jquery.easyui.min.js"></script>
+
+	</head>
+
+
+	<body class = "easyui-layout" style = "font-family:Verdana">
+		<div data-options="region:'north'" style="height 50px;padding: 10px;font-size: 20px;">
+			Header
+		</div>
+
+		<div data-options="region:'south'" style="height 40px;padding: 10px;font-size: 12px;">
+			Footer
+		</div>
+
+		<div data-options="region:'east',split:true" title="Select" style="width: 150px;">
+			<ul id="tt" class="easyui-tree">
+				<li>
+					<span>Folder</span>
+					<ul>
+						<li>
+							<span>Sub Folder 1</span>
+							<ul>
+								<li><span>File 11</span></li>
+								<li><span>File 12</span></li>
+								<li><span>File 13</span></li>
+							</ul>
+						</li>
+						<li><span>File 2</span></li>
+						<li><span>File 3</span></li>
+					</ul>
+				</li>
+				<li><span>File 21</span></li>
+			</ul>	
+		</div>
+
+		<div data-options="region:'west',split:true" title="Workflow" style="width: 150px;">
+			<div class="easyui-accordion" style="overflow:auto; padding:5px;">
+				<div title="Load" data-options="" style="overflow:auto; padding:5px;">
+					<h3 style="">Accordion 1</h3>
+					<p>Put any content you like into accordion sections.</p>
+				</div>
+				<div title="Process" data-options="" style="overflow:auto; padding:5px;">
+					<h3 style="">Accordion 2</h3>
+					<p>Put any content you like into accordion sections.</p>
+				</div>
+				<div title="View" data-options="" style="overflow:auto; padding:5px;">
+					<h3 style="">Accordion 3</h3>
+					<p>Put any content you like into accordion sections.</p>
+				</div>
+				<div title="Share" data-options="" style="overflow:auto; padding:5px;">
+					<h3 style="">Accordion 4</h3>
+					<p>Put any content you like into accordion sections.</p>
+				</div>
+			</div>
+		</div>
+
+		<div data-options="region:'center', title:'Work Zone'">
+			<div class="easyui-panel" style="padding:5px;width:100%">
+				<a href="#" class="easyui-menubutton" data-options="menu:'#mm1',iconCls:'icon-edit'">Edit</a>
+				<a href="#" class="easyui-menubutton" data-options="menu:'#mm2',iconCls:'icon-help'">Help</a>
+			</div>
+		</div>
+
+
+		<div id="mm1" style="width:150px;">
+	        <div data-options="iconCls:'icon-undo'">Undo</div>
+	        <div data-options="iconCls:'icon-redo'">Redo</div>
+	        <div class="menu-sep"></div>
+	        <div>Cut</div>
+	        <div>Copy</div>
+	        <div>Paste</div>
+	        <div class="menu-sep"></div>
+	        <div>
+	            <span>Toolbar</span>
+	            <div>
+	                <div>Address</div>
+	                <div>Link</div>
+	                <div>Navigation Toolbar</div>
+	                <div>Bookmark Toolbar</div>
+	                <div class="menu-sep"></div>
+	                <div>New Toolbar...</div>
+	            </div>
+        	</div>
+	        <div data-options="iconCls:'icon-remove'">Delete</div>
+	        <div>Select All</div>
+	    </div>
+	    
+	    <div id="mm2" style="width:100px;">
+	        <div>Help</div>
+	        <div>Update</div>
+	        <div>About</div>
+	    </div>
+	</body>
+</html>
