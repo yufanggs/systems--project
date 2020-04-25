@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+	<head>
+		<!-- Add a suitable title for this page -->
+		<title>Experimental Design</title>
+
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <meta name="description" content="ESA Project">
+	    <meta name="author" content="Justinian and Justin">
+	    <link rel="icon" href="../static/logos/basket.png">
+
+		<!-- Stylesheet CSS -->
+		<link rel="stylesheet" type="text/css" href="localstyle.css">
+		<link rel="stylesheet" type="text/css" href="../static/style.css">
+		<link rel="stylesheet" type="text/css" href="../static/jquery-easyui/themes/default/easyui.css">
+
+		<!-- Javascript Js -->
+		<script src="../static/jquery-easyui/jquery.min.js"></script>
+		<script src="../static/jquery-easyui/jquery.easyui.min.js"></script>
+		<link ref="icon" href="../static/logos/basket.png">
+	</head>
+
+		<body>
+			<button	type="button" class="btn-left nextbtn_left" onClick="location.href='../index.html'"><span>Back</span></button>
+
+		<div class="divcenter">
+				<h2>t-test</h2>
+				t-test is done on excel for both service time and time spent in queue of the customers. This is to test if it is statistically significant that both the average
+				<br>service time and average time customers spent in queue between the Cashier and Self-Checkout are different.
+				<br>
+				<br>H0:μ1 -μ2 =0
+				<br>H1: μ1 - μ2 ≠ 0
+				<br>
+				<br>At 5% level of significance
+				<br>
+				<br>
+				<br>μ1 refers to the mean waiting time in queue for the cashier queue
+				<br>μ2 refers to the mean waiting time in queue for the self-checkout queue
+				<br>
+				<br>Below are the results of the t-test
+				<br>
+
+			<div class="row">
+				<div class="column">
+					<h3><u> Service Time </u></h3>
+					<img src="1.jpg" style="width:800px">
+
+					<br>
+					<br>
+					<br>If t-statistics is greater than t-critical in a two tail test, we reject null hypothesis. For service time test results, according to table 1, t Stat is 109.79 which is greater than the t critical two tail of 1.9647. Therefore, we reject the
+					<br>null hypothesis and conclude that there is sufficient evidence for the mean service time of cashier queue to be different from the mean service time of the self-checkout queue.
+
+	</br>
+
+
+
+				</div>
+				<br>
+
+
+				<div class="row">
+					<div class="column">
+						<h3><u> Time Spent In Queue </u></h3>
+						<img src="2.jpg" style="width:800px">
+
+						<br>
+						<br>
+						<br> The same is done for the t-test of time spent in queue. The t Stat is 76.297, which is also larger than the t critical two-tail of 1.966. Hence, we reject the null hypothesis
+						<br>and conclude that there is sufficient evidence for the mean time spent in cashier queue to be different from the mean time spent in self-checkout queue.
+
+						<br>
+						<br>
+						<br>
+
+		</br>
+
+				</div>
+			</div>
+
+			</body>
+		</html>

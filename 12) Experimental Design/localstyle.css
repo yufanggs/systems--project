@@ -1,0 +1,93 @@
+/* Non-Functional Requirements CSS */
+
+/*headers
+*****************/
+h2{
+  padding:auto;
+  margin-top:10px;
+  margin-left: 1rem;
+  font-size:40px;
+}
+
+h3{
+  font-size:25px;
+}
+
+/* tables 
+*****************/
+th{
+  min-width: 70px;
+  border:solid 1px;
+  background-color: #fdf6b4;
+  color: #000;
+  padding:5px;
+  text-align:center;
+}
+
+td{
+  height: 50px;
+  border: 1px solid black;
+  padding:5px;
+  text-align:left;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+/* lists
+****************/
+li {
+  padding:10px;
+  margin:5px;
+}
+
+.list-hover li:hover {
+  background-color: #fced69;
+}
+
+/* containers
+****************/
+.divcenter{
+  text-align: center;
+}
+.divcenterBody{
+  text-align: left;
+  display: inline-block;
+  font-size: 20px;
+  width: 50%
+}
+.wrapper{
+  display:flex;
+  overflow-x: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+}
+
+.container{
+}
+
+/* buttons 
+**************/
+
+.nextbtn_right{
+  position: absolute;
+  width:100px;
+  top:80%;
+  right:5rem;
+  background-color: transparent;
+  color: #000;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 30px;
+}
+
+.nextbtn_left{
+  width:100px;
+  left:1rem;
+  margin-bottom: 1px;
+  background-color: transparent;
+  color: #000;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+}

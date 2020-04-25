@@ -1,0 +1,118 @@
+/* Requirements Allocation CSS */
+/*headers
+*****************/
+h2{
+  padding:auto;
+  margin-top:10px;
+  margin-left: 1rem;
+  font-size:40px;
+}
+
+h3{
+  font-size:25px;
+  margin-bottom: 20px;
+}
+
+
+/* Lists
+*****************/
+.subteamlist{
+  margin:20px 0px 0px 0px;
+  margin-right: 35px;
+}
+.subteamlist li{  
+  background-color: #fafafa;
+  list-style:none;
+  padding:10px 15px;
+  border:solid 1px;
+  font-size: 15px;
+}
+
+.subteamlist li:hover{
+  background: #fbed6a;
+  border:solid 2px;
+
+}
+
+/* tables 
+*****************/
+th{
+  min-width: 70px;
+  border:solid 1px;
+  background-color: #fdf6b4;
+  color: #000;
+  padding:5px;
+  text-align:center;
+}
+
+td{
+  height: 50px;
+  border: 1px solid black;
+  padding:5px;
+  text-align:left;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.table-hover tbody tr:hover td{
+  background-color: #fced69;
+}
+
+
+/* containers
+****************/
+.divcenter{
+  text-align: center;
+}
+
+.wrapper{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;  
+}
+
+.container{
+  text-align: left;
+  font-size: 20px;
+  width: 60%;
+  margin-left: 10px;
+}
+
+#subteams{
+  max-width: 200px;
+}
+
+#main_table{
+  margin-left:100px;
+}
+
+#desc{
+  margin-left: 2px;
+  font-size: 13px;
+  max-width:30px;
+  overflow-wrap: normal;
+}
+
+/* buttons 
+**************/
+.nextbtn_left{
+  width:100px;
+  left:1rem;
+  margin-bottom: 1px;
+  background-color: transparent;
+  color: #000;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+}
+
+#designrules_btn{
+  position: absolute;
+  top:4rem;
+  font-size: 15px;
+  width:200px;
+  margin-left: 10px;
+  text-align: left;
+}
